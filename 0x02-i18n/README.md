@@ -47,7 +47,7 @@ First you will setup a basic Flask app in `0-app.py`. Create a single `/` route 
 
 * GitHub repository: alx-backend
 * Directory: 0x02-i18n
-   * File:
+    * File:
        * [0-app.py](./0-app.py)
        * [templates/0-index.html](./templates/0-index.html)
 
@@ -71,7 +71,7 @@ Use that class as config for your Flask app.
 
 * GitHub repository: alx-backend
 * Directory: 0x02-i18n
-* File:
+    * File:
        * [1-app.py](./1-app.py)
        * [templates/1-index.html](./templates/1-index.html)
 
@@ -83,7 +83,7 @@ Create a `get_locale` function with the `babel.localeselector` decorator. Use `r
 
 * GitHub repository: alx-backend
 * Directory: 0x02-i18n
-* File:
+    * File:
        * [2-app.py](./2-app.py)
        * [templates/2-index.html](./templates/2-index.html)
 
@@ -132,7 +132,7 @@ Reload the home page of your app and make sure that the correct messages show up
 
 * GitHub repository: alx-backend
 * Directory: 0x02-i18n
-* File:
+    * File:
        * [3-app.py](./3-app.py)
        * [babel.cfg](babel.cfg)
        * [templates/3-index.html](templates/3-index.html)
@@ -157,7 +157,7 @@ Now you should be able to test different translations by visiting `http://127.0.
 
 * GitHub repository: alx-backend
 * Directory: 0x02-i18n
-* File:
+    * File:
        * [4-app.py](./4-app.py)
        * [templates/4-index.html](templates/4-index.html)
 
@@ -199,7 +199,7 @@ In your HTML template, if a user is logged in, in a paragraph tag, display a wel
 
 * GitHub repository: alx-backend
 * Directory: 0x02-i18n
-* File:
+    * File:
        * [5-app.py](./5-app.py)
        * [templates/5-index.html](templates/5-index.html)
 
@@ -222,7 +222,7 @@ Test by logging in as different users
 
 * GitHub repository: alx-backend
 * Directory: 0x02-i18n
-* File:
+    * File:
        * [6-app.py](./6-app.py)
        * [templates/6-index.html](templates/6-index.html)
 
@@ -244,7 +244,7 @@ Before returning a URL-provided or user time zone, you must validate that it is 
 
 * GitHub repository: alx-backend
 * Directory: 0x02-i18n
-* File:
+    * File:
        * [7-app.py](./7-app.py)
        * [templates/7-index.html](templates/7-index.html)
 
@@ -269,7 +269,7 @@ Use the following translations:
 
 * GitHub repository: alx-backend
 * Directory: 0x02-i18n
-* File:
+    * File:
        * [app.py](app.py)
        * [templates/index.html](templates/index.html)
        * [translations/en/LC_MESSAGES/messages.po](translations/en/LC_MESSAGES/messages.po)
