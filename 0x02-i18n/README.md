@@ -47,7 +47,7 @@ First you will setup a basic Flask app in `0-app.py`. Create a single `/` route 
 
 * GitHub repository: alx-backend
 * Directory: 0x02-i18n
-* File:
+   * File:
        * [0-app.py](./0-app.py)
        * [templates/0-index.html](./templates/0-index.html)
 
