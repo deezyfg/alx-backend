@@ -18,12 +18,12 @@ This repository is part of the ALX Software Engineering program and focuses on e
 
 ## Directories
 
-| Directory                  | Description                                          |
-|----------------------------|------------------------------------------------------|
-| 0x00-pagination            | Implementing pagination techniques                   |
-| 0x01-caching               | Strategies for caching to improve performance        |
-| 0x02-i18n                  | Basics of internationalization in software           |
-| 0x03-queuing_system_in_js  | Building queuing systems using JavaScript            |
+| Directory                                               | Description                                          |
+|---------------------------------------------------------|------------------------------------------------------|
+| [0x00-pagination](0x00-pagination)                      | Implementing pagination techniques                   |
+| [0x01-caching](0x01-caching)                            | Strategies for caching to improve performance        |
+| [0x02-i18n](0x02-i18n)                                  | Basics of internationalization in software           |
+| [0x03-queuing_system_in_js](0x03-queuing_system_in_js)  | Building queuing systems using JavaScript            |
 
 ## Author :pencil:
 
