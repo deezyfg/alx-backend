@@ -50,8 +50,8 @@ First you will setup a basic Flask app in `0-app.py`. Create a single `/` route 
 * GitHub repository: alx-backend
 * Directory: 0x02-i18n
 * File:
-       - [0-app.py](./0-app.py)
-       - [templates/0-index.html](./templates/0-index.html)
+       * [0-app.py](./0-app.py)
+       * [templates/0-index.html](./templates/0-index.html)
 
 #### 1. Basic Babel setup
 
@@ -74,8 +74,8 @@ Use that class as config for your Flask app.
 * GitHub repository: alx-backend
 * Directory: 0x02-i18n
 * File:
-       - [1-app.py](./1-app.py)
-       - [templates/1-index.html](./templates/1-index.html)
+       * [1-app.py](./1-app.py)
+       * [templates/1-index.html](./templates/1-index.html)
 
 #### 2. Get locale from request
 
@@ -86,8 +86,8 @@ Create a `get_locale` function with the `babel.localeselector` decorator. Use `r
 * GitHub repository: alx-backend
 * Directory: 0x02-i18n
 * File:
-       - [2-app.py](./2-app.py)
-       - [templates/2-index.html](./templates/2-index.html)
+       * [2-app.py](./2-app.py)
+       * [templates/2-index.html](./templates/2-index.html)
 
 
 #### 3. Parametrize templates
@@ -135,15 +135,15 @@ Reload the home page of your app and make sure that the correct messages show up
 * GitHub repository: alx-backend
 * Directory: 0x02-i18n
 * File:
-       - [3-app.py](./3-app.py)
-       - [babel.cfg](babel.cfg)
-       - [templates/3-index.html](templates/3-index.html)
-       - [translations/en/LC_MESSAGES/messages.po](translations/en/LC_MESSAGES/messages.po)
-       - [translations/fr/LC_MESSAGES/messages.po](translations/fr/LC_MESSAGES/messages.po)
-       - [translations/en/LC_MESSAGES/messages.mo](translations/en/LC_MESSAGES/messages.mo)
-       - [translations/fr/LC_MESSAGES/messages.mo](translations/fr/LC_MESSAGES/messages.mo)
+       * [3-app.py](./3-app.py)
+       * [babel.cfg](babel.cfg)
+       * [templates/3-index.html](templates/3-index.html)
+       * [translations/en/LC_MESSAGES/messages.po](translations/en/LC_MESSAGES/messages.po)
+       * [translations/fr/LC_MESSAGES/messages.po](translations/fr/LC_MESSAGES/messages.po)
+       * [translations/en/LC_MESSAGES/messages.mo](translations/en/LC_MESSAGES/messages.mo)
+       * [translations/fr/LC_MESSAGES/messages.mo](translations/fr/LC_MESSAGES/messages.mo)
 
-#### 4.  Force locale with URL parameter
+#### 4. Force locale with URL parameter
 
 In this task, you will implement a way to force a particular locale by passing the `locale=fr` parameter to your app’s URLs.
 
@@ -160,8 +160,8 @@ Now you should be able to test different translations by visiting `http://127.0.
 * GitHub repository: alx-backend
 * Directory: 0x02-i18n
 * File:
-       - [4-app.py](./4-app.py)
-       - [templates/4-index.html](templates/4-index.html)
+       * [4-app.py](./4-app.py)
+       * [templates/4-index.html](templates/4-index.html)
 
 #### 5. Mock logging in
 
@@ -202,8 +202,8 @@ In your HTML template, if a user is logged in, in a paragraph tag, display a wel
 * GitHub repository: alx-backend
 * Directory: 0x02-i18n
 * File:
-       - [5-app.py](./5-app.py)
-       - [templates/5-index.html](templates/5-index.html)
+       * [5-app.py](./5-app.py)
+       * [templates/5-index.html](templates/5-index.html)
 
 #### 6. Use user locale
 
@@ -225,8 +225,8 @@ Test by logging in as different users
 * GitHub repository: alx-backend
 * Directory: 0x02-i18n
 * File:
-       - [6-app.py](./6-app.py)
-       - [templates/6-index.html](templates/6-index.html)
+       * [6-app.py](./6-app.py)
+       * [templates/6-index.html](templates/6-index.html)
 
 ### Advanced:
 
@@ -247,8 +247,8 @@ Before returning a URL-provided or user time zone, you must validate that it is 
 * GitHub repository: alx-backend
 * Directory: 0x02-i18n
 * File:
-       - [7-app.py](./7-app.py)
-       - [templates/7-index.html](templates/7-index.html)
+       * [7-app.py](./7-app.py)
+       * [templates/7-index.html](templates/7-index.html)
 
 #### 8. Display the current time
 Based on the inferred time zone, display the current time on the home page in the default format. For example:
@@ -272,7 +272,7 @@ Use the following translations:
 * GitHub repository: alx-backend
 * Directory: 0x02-i18n
 * File:
-       - [app.py](app.py)
-       - [templates/index.html](templates/index.html)
-       - [translations/en/LC_MESSAGES/messages.po](translations/en/LC_MESSAGES/messages.po)
-       - [translations/fr/LC_MESSAGES/messages.po](translations/fr/LC_MESSAGES/messages.po)
+       * [app.py](app.py)
+       * [templates/index.html](templates/index.html)
+       * [translations/en/LC_MESSAGES/messages.po](translations/en/LC_MESSAGES/messages.po)
+       * [translations/fr/LC_MESSAGES/messages.po](translations/fr/LC_MESSAGES/messages.po)
